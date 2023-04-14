@@ -1,7 +1,7 @@
 resource "aws_security_group" "bastion" {
   name        = "bastion-sg"
   description = "connecting admin through ssh"
-  vpc_id      = vpc-0b2cc03ae520e8690
+  vpc_id      = "vpc-0b2cc03ae520e8690"
 
   ingress {
     description      = "sg"
